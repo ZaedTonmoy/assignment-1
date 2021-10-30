@@ -1,0 +1,30 @@
+h1, h2{
+  font-weight: 700;
+}
+header{
+  background: #9575CD;
+}
+.header-main{
+  padding: 50px 10px;
+  color: floralwhite;
+}
+.history{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section{
+  margin-bottom: 50px;
+}
+footer{
+  background: #D1C4E9;
+  padding-top: 50px;
+}
+footer a{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-main{
+    padding: 50px;
+  }
+}
