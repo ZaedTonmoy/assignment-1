@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ristorante Con Fusion: About Us</title>
+    
+    <!-- CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5881eab4f4.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  </head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark custom-main-nav fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="41" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html"><i class="fas fa-info"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fas fa-list"></i> Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html"><i class="fas fa-address-book"></i> Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <header class="jumbotron">
+    <div class="container header-main">
+        <div class="row row-header">
+            <div class="col-12 col-sm-6">
+                <h1>Ristorante con Fusion</h1>
+                <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+            </div>
+            <div class="col-12 col-sm-3 align-self-center d-flex justify-content-center">
+              <img class="img-fluid" src="img/logo.png" alt="">
+            </div>
+            <div class="col-12 col-md-3 d-flex align-self-center justify-content-center">
+              <a href="#home-card"><button class="btn btn-warning px-5 mt-4">Reserve Table</button></a> 
+            </div>
+        </div>
+    </div>
+  </header>
+
+  <section class="home-body">
+    <div class="container">
+      <div class="row home-body-item d-flex">
+        <div class="col-md-2 order-md-2">
+          <h3>Our Lipsmacking Culinary Creations</h3>
+        </div>
+        <div class="col-md-10 order-1 order-sm-first">
+          <div class="media d-flex align-items-start">
+            <img class="d-flex img-fluid img-thumbnail align-self-center" src="img/buffet.png" alt="">
+            <div class="media-body ms-3">
+              <h2>Uthappizza <span class="badge bg-danger">HOT</span> <span class="badge rounded-pill bg-secondary">5.00$</span></h2>
+              <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row home-body-item d-flex align-items-start">
+        <div class="col-12 col-md-2 align-self-center">
+          <h3>This Month's Promotions</h3>
+        </div>
+        <div class="col-8 col-md-8">
+          <div class="media d-flex">
+            <div class="media-body ms-3">
+              <h2>Weekend Grand Buffet <span class="badge bg-danger">NEW</span> </h2>
+              <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4 col-md-2">
+          <img class="d-flex img-fluid align-self-center" src="img/buffet.png" alt="">
+        </div>
+      </div>
+  
+      <div class="row home-body-item d-flex">
+        <div class="col-md-2 order-md-2  align-self-center">
+          <h3>Meet our Culinary Specialists</h3>
+        </div>
+        <div class="col-md-10 order-sm-first">
+          <div class="media d-flex align-items-start">
+            <img class="d-flex img-thumbnail align-self-center" src="img/alberto.png" alt="">
+            <div class="media-body ms-3">
+              <h2>Alberto Somayya</h2>
+              <h4>Executive Chef</h4>
+              <p class="d-none d-sm-block" >Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row home-body-item home-card" id="home-card">
+          <div class="card col-12 offset-md-2 col-md-8" style="padding-left: 0; padding-right: 0;">
+            <h2 class="card-header bg-warning text-white" >Reserve a Table</h2>
+            <div class="card-body">
+              <form>
+                <div class="row d-flex">
+                  <div class="col-3">
+                    <h4>Number of Guests</h4>
+                  </div>
+                  <div class="col-9">
+                    <input type="radio" name="g" id="1" >
+                    <label for="1">1</label>
+                    <input type="radio" name="g" id="2" >
+                    <label for="2">2</label>
+                    <input type="radio" name="g" id="3" >
+                    <label for="3">3</label>
+                    <input type="radio" name="g" id="4" >
+                    <label for="4">4</label>
+                    <input type="radio" name="g" id="5" >
+                    <label for="5">5</label>
+                    <input type="radio" name="g" id="6" >
+                    <label for="6">6</label>
+                  </div>
+                  <div class="col-3">
+                    <h4>Date and Time</h4>
+                  </div>
+                  <div class="col-9">
+                    <label for="date"><strong>Date</strong></label>
+                    <input type="date" id="date" name="datetime">
+                    <label for="time"><strong>Time</strong></label>
+                    <input type="time" id="time" name="datetime">
+                  </div>
+                </div>
+                <div class="submit-reserve d-flex">
+                  <button type="submit" style="margin: 0 auto;" class="btn btn-primary">Reserve</button>
+                </div>
+              </form>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-md-3 offset-sm-1 col-sm-2 text-center">
+          <h5>Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-8 offset-sm-1 col-sm-4 col-md-4">
+          <h5>Our Address</h5>
+          <address>
+            121, Clear Water Bay Road<br>
+            Clear Water Bay, Kowloon<br>
+            HONG KONG<br>
+            <a href="tel:+852 1234 5678"><i class="fas fa-phone"></i> +852 1234 5678</a><br>
+            <a href="fax:+852 8765 4321"><i class="fas fa-fax"></i> Fax: +852 8765 4321</a><br>
+            <a href="mailto:confusion@food.net"><i class="fas fa-envelope"></i> confusion@food.net</a>
+          </address>
+        </div>
+        <div class="col-12 col-sm-3 col-md-3  align-self-center">
+          <div class="text-center">
+            <a class="btn btn-social-icon" href="https://www.google.com/+"><i class="fab fa-brands fa-google-plus-square fa-2x"></i></a>
+            <a class="btn btn-social-icon" href="https://www.facebook.com/profile.php?id=""><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a class="btn btn-social-icon" href="https://www.linkedin.com/in/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a class="btn btn-social-icon" href="http://twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="btn btn-social-icon" href="http://youtube.com/"><i class="fab fa-youtube fa-2x"></i></a>
+            <a class="btn btn-social-icon" href="mailto:zaedtonmoy@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-auto">
+          <p>© Copyright 2018 Ristorante Con Fusion</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="./Ristorante Con Fusion_files/jquery.slim.min.js.download"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+</body>
+</html>
